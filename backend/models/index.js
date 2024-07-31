@@ -11,6 +11,7 @@ const sequelize = new Sequelize(
 
 const todoModel = require('./Todo')(sequelize, Sequelize); 
 
+
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
